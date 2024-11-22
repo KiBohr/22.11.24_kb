@@ -1,0 +1,188 @@
+@font-face {
+    font-family:roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    width:1440px;
+    height:616.5px;
+    margin: 10px auto;
+    background-color: #F5F5F5;
+}
+
+nav a{
+    font-size: 14px;
+    color:#659D89;
+    text-decoration: none;
+    margin-right:10px;
+    text-align:right;
+}
+
+nav a:hover{
+    text-shadow: #659D89  0.5px 0
+}
+
+nav{
+    margin-bottom: 80px;
+}
+
+nav a:nth-of-type(1){
+    margin-left: 30px;
+}
+
+h1{
+    color:#659D89;
+    margin-left: 30px;
+    font-size:5rem ;
+}
+
+h1 +p{
+    color:black;
+    margin-left: 30px;
+    font-size:5rem;
+    display: inline-block;
+    width: 660px;
+    height: 243px;
+    margin-bottom: 140px;
+}
+
+#icons{
+    text-align: right;
+    margin-right: 180px;
+    margin-bottom: 180px;
+}
+
+ul{
+    list-style: none;
+}
+
+#fheader{
+    padding-bottom: 30px;
+    margin-left: 30px;
+}
+
+.thover:hover{
+    text-shadow: #659D89  0.5px 0
+}
+
+.phover:hover{
+    box-shadow: #c9c2c2 2px 2px 2px 2px;
+}
+
+div a{
+    color:#666666;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header{
+    border-bottom: solid 4px #eae2e2 ;
+}
+
+.secH{
+    font-size: 2rem;
+    color:black;
+    margin-left: 30px;
+}
+
+/*: section 2 emotions */
+
+#struggle{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#str2{
+    margin-left: 30px;
+    font-size:16px ;
+    margin-bottom: 100px;
+}
+
+.emo{
+    margin-left: 180px;
+    margin-bottom: 40px;
+}
+
+.emo img{
+    display:inline-block;
+    margin-right: 40px;
+}
+
+
+#secEmotions{
+    border-bottom:  solid 2px #eae2e2;
+    margin-bottom: 40px;
+}
+
+/*: section 3 features */
+
+#featRes{
+    margin-bottom: 100px;
+}
+
+.pic1_3{
+    margin-left: 110px;
+    text-align: center;
+    width: 756px;
+    margin-top: 100px;
+}
+
+.pic2_4{
+    margin-left: 500px;
+    text-align: center;
+    width: 756px;
+    margin-top: 100px;
+}
+
+.picI1_3{
+    color: #666666;
+    font-size:12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.picI2{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#galery{
+    border-bottom:  solid 2px #eae2e2;
+}
+
+#lastp{
+    margin-bottom: 200px;
+}
+
+/* : footer */
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:#666666;
+    font-size:2rem;
+    font-weight:light;
+}
+
+#tradem{
+    color:#666666;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+
